@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mon premier site avec Git</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<h1>Un super projet enregistrer avec Git et Github</h1>
-	<p>Et si je mets un paragraphe directement via GitHub ?</p>
-	<p>Et si je mets un petit texte comme ça ?</p>
-	<p>Avec encore un autre paragraphe ?</p>
-</body>
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <link rel="stylesheet" href="style.css" >
+    <title>Digital Elite</title>
+    <style>
+      *{
+          box-sizing: border-box;
+      }
+
+      body{
+          margin: 0;
+          padding: 0;
+          font-family: tahoma;
+          color: #444;
+      }
+
+      section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height : 400px;
+        width: 1400px;
+        background-color: red;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        display: flex;
+      }
+      .content{
+        width: calc(50% - 50px);
+        height: 100%;
+        background-color: rgb(250, 79, 79);
+        padding: 2% 5%;
+        line-height: 1.5em;
+        font-size: 18px;
+        text-align: justify;
+      }
+      .lien{
+
+        border:1px black solid;
+        border-radius: 10px;
+        width:100px;
+        height: 30px;
+        text-align: center;
+        padding-top: : 1px;
+        word-wrap: break-word;
+
+      }
+
+
+      .imagebox{
+        width: calc(50% + 70px);
+        height: 100%;
+        background-image: url("background_header.jpg");
+        background-size: cover;
+        border-left: 100px solid rgb(250, 79, 79);
+        border-bottom: 400px solid transparent;
+      }
+
+      h1{
+        text-transform: uppercase;
+      }
+      </style>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </head>
+  <body>
+    <section class="skewbox" >
+      <div class="content" >
+        <img src="logo.png" alt="logo">
+        <h1>rized web design</h1>
+    <p>we digitalise your business process.</p>
+<div class="lien" >
+
+    <a href="page1.html">Lean more</a>
+</div>
+  </div>
+
+  <div class="imagebox"></div>
+
+  </body>
+  <footer>
+  </footer>
 </html>
