@@ -1,4 +1,56 @@
-h1
-{
-	color: red;
-}
+*{
+          box-sizing: border-box;
+      }
+
+      body{
+          margin: 0;
+          padding: 0;
+          font-family: tahoma;
+          color: #444;
+      }
+
+      section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height : 400px;
+        width: 1400px;
+        background-color: red;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        display: flex;
+      }
+      .content{
+        width: calc(50% - 50px);
+        height: 100%;
+        background-color: rgb(250, 79, 79);
+        padding: 2% 5%;
+        line-height: 1.5em;
+        font-size: 18px;
+        text-align: justify;
+      }
+      .lien{
+
+        border:1px black solid;
+        border-radius: 10px;
+        width:100px;
+        height: 30px;
+        text-align: center;
+        padding-top: : 1px;
+        word-wrap: break-word;
+
+      }
+
+
+      .imagebox{
+        width: calc(50% + 70px);
+        height: 100%;
+        background-image: url("background_header.jpg");
+        background-size: cover;
+        border-left: 100px solid rgb(250, 79, 79);
+        border-bottom: 400px solid transparent;
+      }
+
+      h1{
+        text-transform: uppercase;
+      }
